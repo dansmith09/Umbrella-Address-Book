@@ -62,6 +62,12 @@ function init() {
 
 }
 
+function displayContent() {
+    $("#weather").css("visibility", "visible");
+    $("#contact-info").css("visibility", "visible");
+    $("#location-map").css("visibility", "visible");
+}
+
 function renderContactList() {
     // Defines contactList
     var contactList = $("#contact-list ul");
@@ -189,6 +195,8 @@ function addressToMap(address) {
             // Gets the address longitude and latitude coordinates
             var lat = data.results[0].geometry.location.lat;
             var lng = data.results[0].geometry.location.lng;
+            // Shows hidden HTML
+            displayContent();
             // Calls the render map function based on the coordinates of the given address
             renderMap(lat, lng);
             // Calls the check weather function based on the coordinates of the given address

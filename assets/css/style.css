@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 #contacts {
@@ -10,7 +11,18 @@
     background-color: lightgrey;
     background-size: cover;
     position: left;
+    border: 1px black solid;
 }
+
+#contacts-header {
+    display: flex;
+    justify-content: center!important;
+}
+
+header p {
+    padding-bottom: 10px;
+}
+
 #contacts h2 {
     margin-left: 10px;
     margin-right: 10px;
@@ -25,13 +37,42 @@
     width: 100%;
 }
 
+
+main {
+    margin: 10px;
+}
+
+
 ul {
     list-style-type: none;
+    margin: 5px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
 }
 
 button {
     padding: 5px;
     margin:1px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    border-color: lightskyblue;
+    transition: 0.3s;
+}
+
+button:active {
+    background-color: lightskyblue!important;
+}
+
+button:current {
+    background-color: lightskyblue!important;
 }
 
 i {
@@ -41,6 +82,16 @@ i {
     margin-right: 5px;
 }
 
+footer {
+    text-align: center;
+    margin: 10px;
+}
+
 #weather{
     font-size:x-large;
 }
+
+#weather, #contact-info, #location-map {
+    visibility: hidden;
+}
+
