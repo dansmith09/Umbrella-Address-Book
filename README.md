@@ -7,9 +7,9 @@ Project Application: Interactive Address Book
 Project Members: Andrea Bell, Wendy Marcela Mejia Ortiz, Alex Perry, Dan Smith, Sabrina Williams
 
 ## Project deployment: 
-💡 See live version here: [https://marcelamejiao.github.io/Umbrella-Address-Book/](https://marcelamejiao.github.io/Umbrella-Address-Book/)
+💡 See live version here: [https://dansmith09.github.io/Umbrella-Address-Book/](https://dansmith09.github.io/Umbrella-Address-Book/)
 
-Github repository: https://github.com/marcelamejiao/Umbrella-Address-Book
+Github repository: https://github.com/dansmith09/Umbrella-Address-Book/
 
 ## User Story:
 AS A person wanting to socialise
@@ -148,9 +148,3 @@ A further conditional statement checks if 'Rain' is true, and will also append a
 A string is created combining the above information, as Temperature, an icon for the general condition, the image representing the temperature conditional and then the umbrella Icon is displayed if required. 
 
 On the index.html page, the element (div) with id 'weather' is then assigned the html from the created string  which will display the data collected above.
-
-
-### Website functionality
-
-## UX/UI and CSS
-(insert work milestones and key concepts of journey)
